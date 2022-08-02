@@ -1,0 +1,9 @@
+//Self research
+
+//find columns starting with certain letters no duplicates
+
+SELECT DISTINCT name FROM database WHERE name REGEXP '^[string]'
+
+//find columns that end or begin with certain letters no duplicates
+
+SELECT distinct name FROM database WHERE name REGEXP '^[aeiou].*[aeiou]$'
